@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.13'
+    compile 'pl.droidsonroids:jspoon:1.0.1'
+    compile 'org.eclipse.jetty:jetty-client:9.4.7.v20170914'
+    compile 'org.eclipse.jetty:jetty-server:9.4.7.v20170914'
+    compile 'org.eclipse.jetty:jetty-servlet:9.4.7.v20170914'
+    compile 'org.eclipse.jetty.websocket:websocket-api:9.4.7.v20170914'
+    compile 'org.eclipse.jetty.websocket:websocket-server:9.4.7.v20170914'
+    compile 'org.eclipse.jetty:jetty-websocket-server-impl:9.4.7.v20170914'
+    compile 'org.eclipse.jetty:jetty-websocket-client-impl:9.4.7.v20170914'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.7.5'
+}
